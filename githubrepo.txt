@@ -1,6 +1,7 @@
 COMMAND:
-git remote -v
+curl https://api.github.com/repos/likhitha-reddy-p/expressBookReview
 
 OUTPUT:
-origin  https://github.com/likhitha-reddy-p/expressBookReview.git (fetch)
-origin  https://github.com/likhitha-reddy-p/expressBookReview.git (push)
+"parent": {
+  "full_name": "ibm-developer-skills-network/expressBookReview"
+}

@@ -1,5 +1,7 @@
 COMMAND:
-Invoke-RestMethod http://localhost:3000/reviews/101
+curl http://localhost:3000/reviews/101
 
 OUTPUT:
-{}
+{
+  "message": "No reviews available"
+}

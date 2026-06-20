@@ -1,5 +1,5 @@
 COMMAND:
-Invoke-RestMethod http://localhost:3000/books
+curl http://localhost:3000/books
 
 OUTPUT:
 [

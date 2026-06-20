@@ -1,27 +1,48 @@
 const axios = require("axios");
 
+const BASE_URL = "http://localhost:3000/books";
+
 // Get all books
-const getAllBooks = async () => {
-    const res = await axios.get("/books");
-    return res.data;
+const getAllBooks = async (req, res) => {
+    try {
+        const response = await axios.get(`${BASE_URL}`);
+        res.json(response.data);
+    } catch (error) {
+        res.status(500).json({ message: "Error fetching all books" });
+    }
 };
 
-// Get by ISBN
-const getBookByISBN = async (isbn) => {
-    const res = await axios.get(`/books/isbn/${isbn}`);
-    return res.data;
+// Get book by ISBN
+const getBookByISBN = async (req, res) => {
+    try {
+        const isbn = req.params.isbn;
+        const response = await axios.get(`${BASE_URL}/isbn/${isbn}`);
+        res.json(response.data);
+    } catch (error) {
+        res.status(500).json({ message: "Error fetching book by ISBN" });
+    }
 };
 
-// Get by author
-const getBooksByAuthor = async (author) => {
-    const res = await axios.get(`/books/author/${author}`);
-    return res.data;
+// Get books by author
+const getBooksByAuthor = async (req, res) => {
+    try {
+        const author = req.params.author;
+        const response = await axios.get(`${BASE_URL}/author/${author}`);
+        res.json(response.data);
+    } catch (error) {
+        res.status(500).json({ message: "Error fetching books by author" });
+    }
 };
 
-// Get by title
-const getBooksByTitle = async (title) => {
-    const res = await axios.get(`/books/title/${title}`);
-    return res.data;
+// Get books by title
+const getBooksByTitle = async (req, res) => {
+    try {
+        const title = req.params.title;
+        const response = await axios.get(`${BASE_URL}/title/${title}`);
+        res.json(response.data);
+    } catch (error) {
+        res.status(500).json({ message: "Error fetching books by title" });
+    }
 };
 
 module.exports = {
