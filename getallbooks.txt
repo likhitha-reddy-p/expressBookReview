@@ -4,15 +4,63 @@ Invoke-RestMethod http://localhost:3000/books
 OUTPUT:
 [
   {
-    "isbn": "101",
-    "title": "Node Basics",
-    "author": "John Doe",
+    "isbn": "1",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
     "reviews": {}
   },
   {
-    "isbn": "102",
-    "title": "Express Guide",
-    "author": "Jane Smith",
+    "isbn": "2",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J.K. Rowling",
+    "reviews": {}
+  },
+  {
+    "isbn": "3",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J.K. Rowling",
+    "reviews": {}
+  },
+  {
+    "isbn": "4",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "reviews": {}
+  },
+  {
+    "isbn": "5",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "reviews": {}
+  },
+  {
+    "isbn": "6",
+    "title": "1984",
+    "author": "George Orwell",
+    "reviews": {}
+  },
+  {
+    "isbn": "7",
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "reviews": {}
+  },
+  {
+    "isbn": "8",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "reviews": {}
+  },
+  {
+    "isbn": "9",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "reviews": {}
+  },
+  {
+    "isbn": "10",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
     "reviews": {}
   }
 ]
