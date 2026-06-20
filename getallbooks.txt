@@ -1,0 +1,18 @@
+COMMAND:
+Invoke-RestMethod http://localhost:3000/books
+
+OUTPUT:
+[
+  {
+    "isbn": "101",
+    "title": "Node Basics",
+    "author": "John Doe",
+    "reviews": {}
+  },
+  {
+    "isbn": "102",
+    "title": "Express Guide",
+    "author": "Jane Smith",
+    "reviews": {}
+  }
+]
