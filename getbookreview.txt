@@ -1,0 +1,5 @@
+COMMAND:
+Invoke-RestMethod http://localhost:3000/reviews/101
+
+OUTPUT:
+{}

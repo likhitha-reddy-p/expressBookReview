@@ -1,0 +1,5 @@
+COMMAND:
+Invoke-RestMethod -Uri "http://localhost:3000/reviews/101" -Method DELETE
+
+OUTPUT:
+Review deleted

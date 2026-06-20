@@ -1,0 +1,5 @@
+COMMAND:
+Invoke-RestMethod -Uri "http://localhost:3000/reviews/101" -Method POST -Headers @{ "Content-Type"="application/json" } -Body '{"review":"Excellent book!"}'
+
+OUTPUT:
+Review added/updated
