@@ -1,14 +1,12 @@
 [
-  {
-    "isbn": "101",
-    "title": "Node Basics",
-    "author": "John Doe",
-    "reviews": {}
-  },
-  {
-    "isbn": "102",
-    "title": "Express Guide",
-    "author": "Jane Smith",
-    "reviews": {}
-  }
+  { "isbn": "1", "title": "Harry Potter 1", "author": "J.K. Rowling", "reviews": {} },
+  { "isbn": "2", "title": "Harry Potter 2", "author": "J.K. Rowling", "reviews": {} },
+  { "isbn": "3", "title": "Harry Potter 3", "author": "J.K. Rowling", "reviews": {} },
+  { "isbn": "4", "title": "The Lord of the Rings", "author": "J.R.R. Tolkien", "reviews": {} },
+  { "isbn": "5", "title": "The Hobbit", "author": "J.R.R. Tolkien", "reviews": {} },
+  { "isbn": "6", "title": "Pride and Prejudice", "author": "Jane Austen", "reviews": {} },
+  { "isbn": "7", "title": "To Kill a Mockingbird", "author": "Harper Lee", "reviews": {} },
+  { "isbn": "8", "title": "1984", "author": "George Orwell", "reviews": {} },
+  { "isbn": "9", "title": "Animal Farm", "author": "George Orwell", "reviews": {} },
+  { "isbn": "10", "title": "The Alchemist", "author": "Paulo Coelho", "reviews": {} }
 ]
